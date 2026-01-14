@@ -67,11 +67,14 @@ pytest
 ```
 test6/
 ├── src/
+│   ├── __init__.py      # Pythonパッケージ初期化ファイル
 │   └── main.py          # FastAPIアプリケーション
 ├── test/
 │   └── test_main.py     # pytestテストファイル
+├── .gitignore           # Git除外設定
+├── pyproject.toml       # pytest設定ファイル
 ├── requirements.txt     # 依存パッケージリスト
-└── README.md           # このファイル
+└── README.md            # このファイル
 ```
 
 ## 開発
